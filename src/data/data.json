@@ -1,0 +1,50 @@
+{
+  "personal": {
+    "location": "continente",
+    "status": "single",
+    "disabled": false,
+    "dependents": 0
+  },
+  "categoryA": {
+    "monthly": {
+      "incomes": [
+        {
+          "name": "baseIncome",
+          "irs": true,
+          "ss": true,
+          "months": 14,
+          "value": 1500
+        },
+        {
+          "name": "irsIncome",
+          "irs": true,
+          "ss": false,
+          "months": 14,
+          "value": 200
+        },
+        {
+          "name": "ssIncome",
+          "irs": false,
+          "ss": true,
+          "months": 14,
+          "value": 300
+        },
+        {
+          "name": "exemptIncome",
+          "irs": false,
+          "ss": false,
+          "months": 11,
+          "value": 250
+        }
+      ],
+      "mealAllowances": [
+        {
+          "type": "card",
+          "months": 11,
+          "days": 22,
+          "value": 9.63
+        }
+      ]
+    }
+  }
+}
